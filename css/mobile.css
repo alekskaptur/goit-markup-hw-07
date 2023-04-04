@@ -1,0 +1,48 @@
+@media screen and (min-width: 480px) {
+    .container {
+    max-width: 428px;
+    }
+
+    .hero-section {
+        max-width: 100%;;
+    }
+    
+    .customers-item {
+        width: calc((100% - 16px) / 2);
+        height: 88px;
+        margin-bottom: 72px;
+    }
+    
+    .customers-item:nth-last-child(-n + 2) {
+        margin-bottom: 0;
+    }
+
+
+
+
+.footer-content {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-left {
+    margin-bottom: 72px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .footer-right {
+        text-align: center;
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 72px;
+    }
+}
+
+
+
+}
+
